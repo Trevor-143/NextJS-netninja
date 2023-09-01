@@ -114,14 +114,18 @@ form button {
 }
 .card p {
   @apply my-4 text-sm leading-6;
+  padding-bottom: 2rem
 }
 
 /* pill styles */
 .pill {
   @apply 
-    py-1 px-2 mt-3
+    p-2
     inline-block 
     text-xs font-semibold;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
 }
 .pill.high {
   @apply bg-red-300 text-red-600;
