@@ -11,6 +11,7 @@ export async function generateStaticParams() {
 }
 
 async function getSingleTicket(ticket_id) {
+    await new Promise(resolve => setTimeout(resolve, 3000))
     const res = await fetch(`http://localhost:4000/tickets/${ticket_id}`, {
         next: {
             revalidate: 60
