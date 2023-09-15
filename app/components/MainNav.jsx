@@ -15,6 +15,7 @@ export default function NavBar () {
           <h2>The navigation</h2>
           <Link href="/" >Home</Link>
           <Link href="/tickets">Tickets</Link>
+          <Link href="/tickets/create">Create Ticket</Link>
         </nav>
     )
 }
